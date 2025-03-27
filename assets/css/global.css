@@ -1,0 +1,189 @@
+.container-custom {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    background: url('../images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 600px; /* Điều chỉnh chiều cao banner */
+}
+
+.logo-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Giới hạn độ rộng thanh tìm kiếm */
+.search-container {
+    max-width: 40%;
+}
+
+/* Navigation Menu */
+#navigation-menu {
+    background-color: #2E3653;
+    padding: 10px 0;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#navigation-menu .nav-link {
+    color: white;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+
+#navigation-menu .nav-link:hover {
+    color: #f8d210; /* Màu vàng nhạt khi hover */
+}
+
+/* Dropdown Menu */
+#navigation-menu .dropdown-menu {
+    background-color: #2E3653;
+    border: none;
+}
+
+#navigation-menu .dropdown-item {
+    color: white;
+}
+
+#navigation-menu .dropdown-item:hover {
+    background-color: #444C66;
+}
+
+.footer {
+    background-color: #EEEEEE;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Đăng ký nhận tin */
+.footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+}
+
+/* Đăng ký nhận tin */
+.newsletter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.newsletter h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.newsletter-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Layout 3 cột */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    width: 30%;
+    padding: 10px;
+}
+
+.footer-column h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    margin: 5px 0;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Icon mạng xã hội */
+.social-icons img,
+.payment-icons img {
+    width: 40px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover,
+.payment-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-column {
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter-form {
+        flex-direction: column;
+    }
+    .newsletter-form input {
+        width: 100%;
+    }
+}
+
+.footer {
+    h4{
+        margin-bottom: 10px;
+    }
+}

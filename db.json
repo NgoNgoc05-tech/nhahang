@@ -1,0 +1,266 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "hanhoa",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "username": "t",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "5",
+      "username": "kh",
+      "password": "789",
+      "role": "user"
+    },
+    {
+      "id": "6",
+      "username": "bn",
+      "password": "098",
+      "role": "user"
+    },
+    {
+      "id": "7",
+      "username": "p",
+      "password": "879",
+      "role": "user"
+    },
+    {
+      "id": 8,
+      "username": "ngocnguuu ",
+      "password": "123 ",
+      "role": "user"
+    },
+    {
+      "id": 9,
+      "username": "ngu ",
+      "password": "123 ",
+      "role": "user"
+    },
+    {
+      "id": 10,
+      "username": "use ",
+      "password": "1234 ",
+      "role": "user"
+    },
+    {
+      "id": 11,
+      "username": "Tuyet",
+      "password": "987 ",
+      "role": "user"
+    },
+    {
+      "id": 12,
+      "username": "p ",
+      "password": "098 ",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "name": "Sữa gạo caxi",
+      "price": 30000,
+      "discount": 25000,
+      "category": "Thức uống",
+      "type": "Sữa Thực Vật",
+      "material": "Sữa gạo caxi",
+      "size": "1 lít",
+      "image": "../../assets/images/sua_gao_canxi.webp",
+      "id": "1"
+    },
+    {
+      "name": "Sữa gạo cacao",
+      "price": 30000,
+      "discount": 25000,
+      "category": "Thức uống",
+      "type": "Sữa Thực Vật",
+      "material": "Sữa gạo cacao",
+      "size": "1 lít",
+      "image": "../../assets/images/sua_gao_cacao.webp",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Nước ép táo",
+      "price": 50000,
+      "discount": 45000,
+      "image": "../../assets/images/nc_ep_tao.webp",
+      "category": "Đồ uống",
+      "type": "Thức uống đóng chai",
+      "material": "Nước ép táo",
+      "size": "500ml"
+    },
+    {
+      "id": "4",
+      "name": "Nước ép cherry",
+      "price": 70000,
+      "discount": 60000,
+      "image": "../../assets/images/nc_ep_cherry.webp",
+      "category": "Đồ uống",
+      "type": "Thức uống đóng chai",
+      "material": "Nước ép cherry",
+      "size": "500ml"
+    },
+    {
+      "id": "5",
+      "name": "Xương ống bò kobe",
+      "price": 260000,
+      "discount": 240000,
+      "image": "../../assets/images/xg_ong_bo_kobe.webp",
+      "category": "Thịt và hải sản",
+      "type": "Thịt Heo",
+      "material": "Xương ống bò kobe",
+      "size": "1kg"
+    },
+    {
+      "id": "6",
+      "name": "Thịt vai",
+      "price": 350000,
+      "discount": 320000,
+      "image": "../../assets/images/thit_vai.jpg",
+      "category": "Thịt và hải sản",
+      "type": "Thịt Heo",
+      "material": "Thịt vai",
+      "size": "500g"
+    },
+    {
+      "id": "7",
+      "name": "Tôm sú",
+      "price": 250000,
+      "discount": 230000,
+      "image": "../../assets/images/tom_su.jpg",
+      "category": "Thịt và hải sản",
+      "type": "Thủy hải sản",
+      "material": "Tôm sú",
+      "size": "500g"
+    },
+    {
+      "id": "8",
+      "name": "Cá Thu",
+      "price": 320000,
+      "discount": 300000,
+      "image": "../../assets/images/ca_thu.jpg",
+      "category": "Thịt và hải sản",
+      "type": "Thủy hải sản",
+      "material": "Cá Thu",
+      "size": "500g - 1kg"
+    },
+    {
+      "id": "9",
+      "name": "Mực Ống Mùa",
+      "price": 150000,
+      "discount": 140000,
+      "image": "../../assets/images/muc_ong_mua.jpg",
+      "category": "Thịt và hải sản",
+      "type": "Thủy hải sản",
+      "material": "Mực Ống Mùa",
+      "size": "500g"
+    },
+    {
+      "id": "10",
+      "name": "Rau muống",
+      "price": 15000,
+      "discount": 12000,
+      "image": "../../assets/images/rau_muong.webp",
+      "category": "Rau củ quả",
+      "type": "Rau ăn lá",
+      "material": "Rau muống",
+      "size": "300g"
+    },
+    {
+      "id": "11",
+      "name": "Rau cải ngọt",
+      "price": 20000,
+      "discount": 18000,
+      "image": "../../assets/images/cai_ngot.webp",
+      "category": "Rau củ quả",
+      "type": "Rau ăn lá",
+      "material": "Rau cải ngọt",
+      "size": "300g"
+    },
+    {
+      "id": "12",
+      "name": "Rau cải thìa hữu cơ",
+      "price": 25000,
+      "discount": 22000,
+      "image": "../../assets/images/cai_thia_huu_co.jpg",
+      "category": "Rau củ quả",
+      "type": "Rau ăn lá",
+      "material": "Rau cải thìa hữu cơ",
+      "size": "300g"
+    },
+    {
+      "id": "13",
+      "name": "Khoai Lang",
+      "price": 30000,
+      "discount": 28000,
+      "image": "../../assets/images/khoai_lang.jpg",
+      "category": "Rau củ quả",
+      "type": "Rau ăn củ",
+      "material": "Khoai Lang",
+      "size": "500g"
+    },
+    {
+      "id": "14",
+      "name": "Khoai Tây",
+      "price": 25000,
+      "discount": 22000,
+      "image": "../../assets/images/khoai_tay.webp",
+      "category": "Rau củ quả",
+      "type": "Rau ăn củ",
+      "material": "Khoai Tây",
+      "size": "500g"
+    },
+    {
+      "id": "15",
+      "name": "Củ Cải Trắng",
+      "price": 20000,
+      "discount": 18000,
+      "image": "../../assets/images/cu_cai_trang.webp",
+      "category": "Rau củ quả",
+      "type": "Rau ăn củ",
+      "material": "Củ Cải Trắng",
+      "size": "500g"
+    }
+  ],
+  "customer_feedbacks": [
+    {
+      "id": "1",
+      "name": "Ngọc KaKa",
+      "content": "Tôi rất hài lòng với cách website quản lý đơn hàng và thanh toán. Việc theo dõi doanh thu theo ngày, tuần và tháng được hiển thị rất rõ ràng. Đặc biệt, các báo cáo về chi phí nguyên liệu và lợi nhuận được tự động cập nhật, giúp tôi dễ dàng kiểm soát chi phí và tối ưu hóa ngân sách. Chức năng đặt hàng và thanh toán trực tuyến hoạt động trơn tru, khách hàng cũng phản hồi tích cực về điều này",
+      "occupation": "Kế toán",
+      "avatar": "../../assets/images/avatar1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Ngọc HiHi",
+      "content": "Website được thiết kế với giao diện tối giản nhưng rất tinh tế. Màu sắc hài hòa, hình ảnh thực đơn được trình bày rõ ràng, giúp khách hàng dễ dàng chọn món. Các hiệu ứng hover, chuyển động nhẹ khi lướt chuột qua thực đơn hay các phần tử đều được xử lý mượt mà. Việc tối ưu hiển thị trên các thiết bị di động cũng rất tốt, trải nghiệm người dùng trên cả điện thoại và máy tính đều đồng nhất",
+      "occupation": "Designer",
+      "avatar": "../../assets/images/avatar2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Ngọc HeHe",
+      "content": "Website này thực sự là một công cụ hỗ trợ đắc lực trong việc quản lý nhà hàng. Việc cập nhật thực đơn, thêm hoặc xóa món ăn đều dễ dàng thực hiện trong giao diện quản trị. Hệ thống đặt bàn trực tuyến hoạt động hiệu quả, giúp tôi nắm bắt được tình trạng chỗ trống và đặt trước của khách hàng. Việc kết hợp giữa thực đơn món ăn và các chương trình khuyến mãi được thực hiện rất linh hoạt, tạo ra trải nghiệm mua sắm hấp dẫn cho khách hàng",
+      "occupation": "Quản lý",
+      "avatar": "../../assets/images/avatar3.jpg"
+    }
+  ]
+}

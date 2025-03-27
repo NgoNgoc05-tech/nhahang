@@ -1,0 +1,66 @@
+<!-- header.html -->
+<div class="container-custom mx-auto">
+	<div class="d-flex justify-content-between align-items-center px-3 py-2">
+		<h1 class="mb-0">Nhà Hàng Thực Phẩm Ngọc Ngô</h1>
+		<ul class="navbar-nav flex-row" id="user-menu">
+			<!-- Nội dung sẽ thay đổi bằng JS -->
+		</ul>
+	</div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container-custom mx-auto">
+		<div class="d-flex justify-content-between align-items-center px-3 py-2 w-100">
+			<form class="d-flex flex-grow-1 me-3 search-container position-relative">
+				<input id="searchInput" class="form-control" type="search" placeholder="Bạn muốn tìm gì..." aria-label="Search">
+				<div id="searchResults" class="dropdown-menu w-100 shadow mt-1" style="display: none; position: absolute; top: 100%; left: 0; z-index: 1000;"></div>
+			</form>
+
+			<a class="navbar-brand mx-auto text-center logo-container" href="index.html">
+				<img src="/assets/images/logo.webp" alt="Shop Online" height="70">
+			</a>
+
+			<div class="d-flex align-items-center">
+				<span class="me-3 text-primary fw-bold">📞 0901-234-567</span>
+				<a class="nav-link position-relative" href="cart.html">
+					🛒 Giỏ hàng
+					<span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        				0
+    				</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- Navigation Menu -->
+<nav class="navbar navbar-expand-lg" id="navigation-menu">
+	<div class="container-custom mx-auto">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+		        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">🏠 Trang chủ</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown"
+					   aria-expanded="false">
+						🛍️ Sản phẩm
+					</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="products.html?category=Rau củ quả">🥬 Rau củ quả</a></li>
+						<li><a class="dropdown-item" href="products.html?category=Thịt và hải sản">🦞 Thịt và hải sản</a></li>
+						<li><a class="dropdown-item" href="products.html?category=Thức uống">🍹Thức uống</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">☎️ Liên hệ</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
